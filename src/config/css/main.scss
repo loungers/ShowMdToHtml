@@ -1,0 +1,11 @@
+$pre: "DW";
+
+@function getClass($compClass) {
+    @return $pre + "-" + $compClass
+}
+
+
+
+$fontSize-global: 16px;
+
+$fontColor-global: #FFF;
